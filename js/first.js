@@ -1,3 +1,4 @@
+// книга
  document.addEventListener("DOMContentLoaded", function(){
     const img1 = document.getElementById('img1');
     const img2 = document.getElementById('img2');
