@@ -10,6 +10,10 @@ body{
     padding-left: 6vw;
 }
 
+.fairy, .we, .events , .shop, .book {
+    z-index: 100;
+} 
+
 .we{
     padding-top: 2.5vw;
     padding-left: 10vw;
@@ -117,3 +121,32 @@ body{
     display: block; 
 }
 
+/* МЫ */
+
+.content{
+    color: #FFF9EE;
+    font-family:"inter-Regular";
+}
+
+.link {
+    text-decoration: none;
+    color: #526B4B; 
+}
+
+.pink {
+    color: #FBB1CF;
+    text-decoration: underline; 
+}
+
+.green {
+    color: #526B4B;
+    text-decoration: underline; 
+}
+
+.content {
+    max-width: 80vw;
+    font-size: 2vw;
+    text-align: justify;
+    margin-left: -42vw;
+    padding-top: 20vw;
+}
