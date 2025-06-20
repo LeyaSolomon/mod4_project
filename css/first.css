@@ -5,33 +5,23 @@ body{
     display: flex;
 }
 
-.fairy{
-    padding-top: 2vw;
-    padding-left: 6vw;
-}
-
-.fairy, .we, .events , .shop, .book {
+.navigation{
+    width: 100vw;
     z-index: 100;
+    margin-top: 2.5vw;
+    justify-content: space-around;
+    display: flex;
+    gap: 1vw;
+    height: 2vw;
+    margin-left: 2vw;
 } 
 
-.we{
-    padding-top: 2.5vw;
-    padding-left: 10vw;
+.fairy{
+    margin-top: -0.5vw;
 }
 
-.events{
-    padding-top: 2.5vw;
-    padding-left: 12vw;
-}
-
-.shop{
-    padding-top: 2.5vw;
-    padding-left: 14vw;
-}
-
-.book{
-    padding-top: 2.5vw;
-    padding-left: 15vw;
+.logo{
+    width: 100%;
 }
 
 /* ВЕБ-ФОРМА */
@@ -81,6 +71,7 @@ body{
 /* СТРАНИЦА 404 */
 
 .img_404{
+    /* margin-top: 5vw; */
     padding-top: 16vw;
     position: absolute;
     padding-left: 22vw;
@@ -98,22 +89,28 @@ body{
     position:absolute;
 }
 
-.button_book{
-    padding-top: 45vw;
-    margin-left: -51vw;
+
+.left_part{
+    color: aliceblue;
+    position: absolute;
+    width: 30vw; 
+    height: 25vw;
+    margin-top: 14vw;
+    margin-left: 8vw;
 }
 
 .image-container {
-    position: relative;
+    position: absolute;
     width: 30vw; 
+    margin-left: 45%;
 }
 
 .image-container img {
     width: 50vw;
     height: 25vw;
     position: absolute;
-    padding-top: 14vw;
-    margin-left: -42vw;
+    margin-top: 14vw;
+    /* margin-left: -42vw; */
     display: none; 
 }
 
@@ -121,83 +118,3 @@ body{
     display: block; 
 }
 
-/* МЫ */
-
-.content{
-    color: #FFF9EE;
-    font-family:"inter-Regular";
-}
-
-.link {
-    text-decoration: none;
-    color: #526B4B; 
-}
-
-.pink {
-    color: #FBB1CF;
-    text-decoration: underline; 
-}
-
-.green {
-    color: #526B4B;
-    text-decoration: underline; 
-}
-
-.content {
-    font-size: 1.6vw;
-    text-align:left;
-    margin-left: -35vw;
-    margin-right: 42vw;
-    padding-top: 24vw;
-    width: 100vw;
-}
-
-.h1_we{
-    margin-left: -83vw;
-    padding-top: 14vw;
-}
-
-.butterfly1{
-    position: absolute;
-    width: 8vw; /* Размер бабочек */
-    animation: fly 3s infinite;
-    padding-top: 14vw;
-}
-
-.butterfly2{
-    position: absolute;
-    width: 6vw; /* Размер бабочек */
-    animation: fly 3s infinite;
-    padding-top: 10vw;
-}
-
-.butterfly3{
-    position: absolute;
-    width: 4vw; /* Размер бабочек */
-    animation: fly 3s infinite;
-    /* padding-top: 10vw; */
-}
-
-.butterfly4{
-    position: absolute;
-    width: 6vw; /* Размер бабочек */
-    animation: fly 3s infinite;
-    padding-top: 18vw;
-}
-
-@keyframes fly {
-    0%, 100% { transform: translate(0, 0); }
-    25% { transform: translate(2px, -2px); }
-    50% { transform: translate(-2px, 2px); }
-    75% { transform: translate(1px, 1px); }
-}
-
-/* Уникальные анимации для каждой бабочки */
-.butterfly1:nth-child(1) { animation-delay: 0s; }
-        .butterfly:nth-child(2) { animation-delay: 0.2s; }
-        .butterfly:nth-child(3) { animation-delay: 0.4s; }
-        .butterfly:nth-child(4) { animation-delay: 0.6s; }
-        .butterfly:nth-child(5) { animation-delay: 0.8s; }
-        .butterfly:nth-child(6) { animation-delay: 1s; }
-        .butterfly:nth-child(7) { animation-delay: 1.2s; }
-        .butterfly:nth-child(8) { animation-delay: 1.4s; }

@@ -1,28 +1,27 @@
 @font-face{
     font-family:"inter-Medium";
-    src:url(../inter/Inter_18pt-Medium.ttf)format("truetype");
+    src: url("../inter/Inter_18pt-Medium.ttf") format("truetype");
     font-weight:400;
-    font-style:normal;
+    font-style: normal;
 } 
 
 @font-face{
     font-family:"inter-Regular";
-    src:url(../inter/Inter_18pt-Regular.ttf)format("truetype");
+    src: url("../inter/Inter_18pt-Regular.ttf") format("truetype");
     font-weight:400;
-    font-style:normal;
+    font-style: normal;
 } 
 
 @font-face{
     font-family:"inter-SemiBold";
-    src:url(../inter/Inter_18pt-SemiBold.ttf) format("truetype");
+    src: url("../inter/Inter_18pt-SemiBold.ttf") format("truetype");
     font-weight:600;
-    font-style:bold;
+    font-style: bold;
 } 
 
 @font-face{
     font-family:"inter-Bold";
-    src:url(../inter/Inter_24pt-Bold.ttf) format("truetype");
-    font-weight:800;
-    font-style:bold;
+    src: url("../inter/Inter_24pt-Bold.ttf") format("truetype");
+    font-weight:600;
+    font-style: bold;
 } 
-
