@@ -144,9 +144,16 @@ body{
 }
 
 .content {
-    max-width: 80vw;
-    font-size: 2vw;
-    text-align: justify;
-    margin-left: -42vw;
-    padding-top: 20vw;
+    /* max-width: 80vw; */
+    font-size: 1.5vw;
+    text-align:left;
+    margin-left: -40vw;
+    margin-right: 62vw;
+    padding-top: 30vw;
+    width: 100vw;
+}
+
+.h1_we{
+    margin-left: -70vw;
+    padding-top: 10vw;
 }
