@@ -2,3 +2,47 @@
 
 
 /* МАГАЗИН */
+
+.buy_shop1{
+    padding-top: 7vw;
+    position: absolute;
+    padding-left: 1vw;
+}
+
+.buy_shop2{
+    position: absolute;
+    width: 98vw;
+}
+
+.buy_backet1{
+    padding-top: 116vw;
+    position: absolute;
+    padding-left: 89vw;
+}
+
+.buy_backet2{
+    position: absolute;
+    width: 7.5vw;
+}
+
+.buy-button1{
+    background-color: #526B4B;
+    color: #FFF9EE;
+    border: none;
+    padding: 0.5vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.2vw;
+    position: absolute;
+    margin-top: 33vw;
+    margin-left: -87vw;
+}
+        
+.buy-button1:hover {
+    background-color: #FFF9EE;
+    color: #526B4B;
+    /* border: 2px solid #526B4B; */
+}
