@@ -79,16 +79,18 @@ body{
 
 .img_404_2{
     position: absolute;
-    width: 57vw;}
-
-/* КНИГА */
-
-.h1_book{
-    padding-top: 18vw;
-    margin-left: -85vw;
-    position:absolute;
+    width: 57vw;
 }
 
+/* КНИГА */
+p{
+    font-family:"inter-Regular";
+    font-size: 1.5vw;
+}
+
+.button_book{
+    margin-top: 6vw;
+}
 
 .left_part{
     color: aliceblue;
