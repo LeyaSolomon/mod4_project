@@ -48,4 +48,17 @@
         img7.classList.remove('visible');
         img8.classList.add('visible');
     });
+
+
+    
+    function showPopup(imageUrl) {
+        const popup = document.getElementById('popup');
+        popup.innerHTML = `<img src="./img2/poster1.svg" alt="">`;
+        document.getElementById('overlay').style.display = "flex";
+    }
+
+    function closePopup() {
+        document.getElementById('overlay').style.display = "none";
+    }
+    
 });

@@ -97,3 +97,54 @@
     margin-top: 109vw;
     margin-left: -20.5vw;
 }
+
+/* СОБЫТИЯ */
+ 
+.body1{
+    background-color: #1A1818;
+    display: flex;
+}
+
+.gallery-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 2px solid #526B4B;
+    border-radius: 8px;
+    background: #1A1818;
+    padding:15px;
+    position: absolute;
+    width: 89vw;
+    height: 36vw;
+    margin: 4vw;
+    margin-top: 8vw;
+
+}
+
+.gallery-container img {
+    display: inline-block;
+    width: 25vw;
+    margin-right: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.popup {
+    background: #526B4B;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1001;
+    position: absolute;
+}

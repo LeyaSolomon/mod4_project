@@ -8,15 +8,32 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/first.js" charset="UTF-8"></script>
 </head>
-<body>
+<body class="body1">
 
     <section class="navigation">
-    <a class="fairy" href="./index.html"><img class="logo" src="./img/icons.svg" alt="" ></a>
-    <a class="we" href="./we.html"><img src="./img/we.svg" alt=""></a>
-    <a class="events" href="./events.html"><img src="./img/events.svg" alt=""></a>
-    <a class="shop" href="./shop.html"><img src="./img/shop.svg" alt=""></a>
-    <a class="book" href="./book.html"><img src="./img/book.svg" alt=""></a>
+      <a class="fairy" href="./index.html"><img class="logo" src="./img/fairy_w.svg" alt="" ></a>
+      <a class="we" href="./we.html"><img src="./img/we.svg" alt=""></a>
+      <a class="events" href="./events.html"><img src="./img/event_green.svg" alt=""></a>
+      <a class="shop" href="./shop.html"><img src="./img/shop.svg" alt=""></a>
+      <a class="book" href="./book.html"><img src="./img/book.svg" alt=""></a>
     </section>
     
+
+    <div class="gallery-container">
+      <img src="./img2/poster1.svg" alt="" onclick="showPopup('image1.jpg')">
+      <img src="./img2/poster2.svg" alt="" onclick="showPopup('image2.jpg')">
+      <img src="./img2/poster3.svg" alt="" onclick="showPopup('image3.jpg')">
+      <img src="./img2/poster4.svg" alt="" onclick="showPopup('image4.jpg')">
+      <img src="./img2/poster5.svg" alt="" onclick="showPopup('image5.jpg')">
+      <img src="./img2/poster6.svg" alt="" onclick="showPopup('image6.jpg')">
+      <img src="./img2/poster7.svg" alt="" onclick="showPopup('image7.jpg')">
+    </div>
+
+    <div class="overlay" id="overlay" onclick="closePopup()">
+      <div class="popup" id="popup">
+        <img src="./img2/poster1.svg" alt="">
+      </div>
+    </div>
+
 </body>
 </html>
